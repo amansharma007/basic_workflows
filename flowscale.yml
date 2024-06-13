@@ -7,3 +7,12 @@ workflows:
     name: basic.json
     description: ''
     file: simple_workflows/basic.json
+    inputs:
+      - path: 6.inputs.text
+        parameter_name: text
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+    outputs:
+      - demo_type: text
