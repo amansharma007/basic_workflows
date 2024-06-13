@@ -2,4 +2,12 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
-workflows: []
+workflows:
+  - id: sjyhskt0d8m
+    name: basic.json
+    description: ''
+    file: simple_workflows/basic.json
+  - id: 0cjcjf7mfru
+    name: random.json
+    description: ''
+    file: simple_workflows/random.json
