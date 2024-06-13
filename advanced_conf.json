@@ -1,6 +1,7 @@
 {
   "packages": [
-    "websocket-client"
+    "websocket-client",
+    "openai"
   ],
   "apt_dependencies": [
     "libopencv-dev",
